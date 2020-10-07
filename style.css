@@ -1,0 +1,36 @@
+*{
+    margin : 0 px;
+    padding : 0 px;
+    font-family: Arial;
+
+
+}
+body{
+    margin:50px;
+}
+
+.user-form
+{
+width: 450px;
+margin: 100px auto 0px;
+
+}
+
+
+.user-form input{
+    display: block;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px 0px;
+    width:100%;
+    color:black;
+    box-sizing: border-box;
+}
+
+.user-form input:last-child {
+    background: #000;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
